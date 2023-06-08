@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+div.container{
+    display: flex;
+}
+div.item{
+    width: 500px;
+    height: 200px;
+    border: 2px solid black;
+    background-color: grey;
+    margin: 10px;
+    margin-bottom:10px;
+
+}
+p{
+    padding:5px;
+}
+h1{
+    text-align: center;
+    margin: 20px;
+    padding: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3em;
+}
+h2{
+    font-size: 1.5em;
+    border: 2px solid black;
+    text-align: center;
+    margin-top: -2px;
+    margin-bottom: 20px;
+   
+}
+#chick{
+    background-color: palevioletred;
+    width: 40%;
+    margin-left: 60.53%
+    
+    
+}
+#pan{
+    background-color: brown;
+    color: aliceblue;
+    width: 40%;
+    margin-left: 60.45%
+
+    
+}
+#sus{
+    background-color:cornflowerblue;
+    width: 40%;
+    margin-left: 60.2%
+}
+
+/* tablet */
+@media (min-width:768px) and (max-width:991px){
+div.container{
+    float: left;
+    display:inline-block;
+}
+
+#item1{
+    width: 47%;
+    float: left;
+}
+#item2{
+    width: 48%;
+    float: left;
+}
+
+#item3{
+    width: 97%;
+    float: left;
+}
+}
+
+/* moblie */
+@media (max-width:767px){
+    div.container{
+       display: block;
+       margin-left: 50px;
+    }
+
+}
